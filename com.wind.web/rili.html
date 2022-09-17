@@ -4,16 +4,28 @@
     <meta charset="UTF-8">
     <title>日历</title>
 
-    <style type="text/css">
-        td{width: 60px ; height:60px ;text-align: center}
+    <style>
+        body{text-align: center}
+        table{border: 1px solid silver; margin: auto}
+        tr{border:1px solid silver; }
+        td{width: 60px ; height:60px ;text-align: center;border:1px solid silver; }
         button{ width: 40px ; height:20px}
+        .show{margin-top: 50px}
     </style>
+
 </head>
 
 
 <body>
-<label>计算</label><textarea rows="1"></textarea>
-<table border="1">
+
+<div class="show">
+<label>计算</label>&nbsp;&nbsp;&nbsp;
+<input type="text" name="compute">
+</div>
+
+<br/><br/>
+
+<table >
     <tr>
         <td><button type="button">1</button></td>
         <td><button type="button">2</button></td>
